@@ -40,8 +40,8 @@ primes = primes_pair(n)
 print(primes)
 
 # The time complexity of this code depends on the input size n and the number of prime numbers less than or equal to n.
-# The biggest possible input: the find_primes function will loop from 2 to n/2, and the is_prime function will loop from 3 to sqrt(n).
+# The biggest possible input: the primes_pair function will loop from 2 to n/2, and the is_prime function will loop from 3 to sqrt(n).
 # Therefore, the time complexity of the code is O(n * sqrt(n)).
 
 #The space complexity of this code is O(1), because it does not use any additional memory that depends on the input size n. The function find_primes only uses two variables, p and primes, which are constant in size.
-# The function is_prime also uses only one variable, i, which is also constant in size. Therefore, the code uses a constant amount of space regardless of the input.
+# The function if_prime also uses only one variable, i, which is also constant in size. Therefore, the code uses a constant amount of space regardless of the input.
